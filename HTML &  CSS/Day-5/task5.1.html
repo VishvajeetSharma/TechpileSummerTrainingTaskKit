@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar</title>
+    <style>
+        .navbar ul{
+            height: 70px;
+            width: 100%;
+            background-color: gray;
+            margin:0px;
+            padding:10px;
+            border-radius: 5px;
+            overflow:hidden;
+            box-sizing: border-box;
+        }
+
+        .navbar a{
+            color:white;
+            font-weight: 500;
+            padding: 8px 10px;
+            margin: 5px 20px;
+            display:block;
+            text-align:center;
+            text-decoration: none;
+            list-style-type: none;
+            border-radius: 10px;
+            transition: 1s;
+        }
+
+        .navbar a:hover{
+            background-color: #453737 ;
+            box-shadow: 2px 2px 3px 5px #453737 ;
+        }
+
+        .navbar li{
+            float:left;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

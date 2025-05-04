@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #main{
+            height: 500px;
+            width: 1000px;
+            background-color: black;
+            padding: 30px 50px;
+            margin: 100px auto;
+            border-radius: 20px;
+        }
+        .navbar{
+            height: 60px;
+            width: 900px;
+            margin: 200px 0px;
+        }
+        .navbar ul {
+            background-color: gray;
+            margin:0px;
+            padding:5px 10px;
+            overflow:hidden;
+            
+        }
+
+        .navbar a{
+            display:block;
+            padding:10px;
+            text-align:center;
+            text-decoration: none;
+            color:black;
+            transition: 1s;
+            margin: 0px 2px;
+            border-radius: 10px;
+        }
+
+        .navbar a:hover{
+            background-color: black;
+            color: gray;
+        }
+
+        
+        .navbar li{
+            float:left;
+            list-style-type: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">TUTORIAL</a></li>
+                <li><a href="#">WALLPAPER</a></li>
+                <li><a href="#">TEAM WORK</a></li>
+                <li><a href="#">FEEDBACK</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

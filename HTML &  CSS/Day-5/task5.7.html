@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .txt{
+            color: aliceblue;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 35px;
+            text-decoration: 2px solid underline;
+        }
+        .iptxt{
+            height: 50px;
+            width: 100%;
+            margin-bottom: 10px;
+            background-color: transparent;
+            border: 3.5px groove black;
+            border-radius: 25px;
+            padding-left: 20px;
+            box-shadow: 5px 10px 10px -3px  rgb(0, 0, 0, .8);
+        }
+        #main{
+            height: 787px;
+            width: 100%;
+            background: url("dark-neture.avif");
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #form{
+            height: 500px;
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.45);
+            border: 2px solid gray;
+            border-radius: 25px;
+            padding: 15px 50px;
+        }
+        #form h2{
+            width: 200px;
+            text-align: center;
+            margin: 0 auto;
+            border-radius: 15px;
+        }
+        ::placeholder{
+            color: aliceblue;
+            font-size: 14px;
+        }
+        #btn{
+            height: 40px;
+            width: 200px;
+            color: aliceblue;
+            font-size: medium;
+            font-weight: bold;
+            margin: 20px 50px;
+            background-color: rgba(0, 0, 0, .7);
+            border-radius: 20px;
+        }
+        #form a{
+            color: aliceblue; 
+            text-decoration: none; 
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="form" class="txt">
+            <h2>Login Here</h2>
+
+            <label for="email">Email:-</label><br>
+            <input class="iptxt" type="email" name="email" id="email" placeholder="Enter Your EmailId...">
+
+            <label for="pwd">Password:-</label><br>
+            <input class="iptxt" type="password" name="pwd" id="pwd" placeholder="Enter Your Password...">
+
+            <label for="rem"></label>
+            <input type="checkbox" name="rem" id="rem">Remember me
+
+            <a href="#">Forget Password</a>
+
+            <input id="btn" type="submit" value="Login">
+
+            <b>Don't have an account ?</b>
+            <a href="#">Register</a>
+        </div>
+    </div>
+</body>
+</html>
