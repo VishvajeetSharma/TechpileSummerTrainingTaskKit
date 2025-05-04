@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-4.5</title>
+    <style>
+        #outer{
+            height: 510px;
+            width: 710px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .inner1{
+            height: 250px;
+            width: 710px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .inner1_1{
+            height: 250px;
+            width: 350px;
+            background-color: gray;
+            float: left;
+        }
+
+        .inner1_1_1{
+            height: 120px;
+            width: 350px;
+            display: flex;
+            border: 5px solid white;
+        }
+
+        .inner1_1_1_1{
+            height: 110px;
+            width: 170px;
+            background-color: gray;
+            border: 5px solid white;
+            float: left;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div class="inner1">
+            <div class="inner1_1"></div>
+            <div class="inner1_1">
+                <div class="inner1_1_1">
+                    <div class="inner1_1_1_1"></div>
+                    <div class="inner1_1_1_1"></div>
+                </div>
+                <div class="inner1_1_1">
+                    <div class="inner1_1_1_1"></div>
+                    <div class="inner1_1_1_1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="inner1">
+            <div class="inner1_1">
+                <div class="inner1_1_1">
+                    <div class="inner1_1_1_1"></div>
+                    <div class="inner1_1_1_1"></div>
+                </div>
+                <div class="inner1_1_1">
+                    <div class="inner1_1_1_1"></div>
+                    <div class="inner1_1_1_1"></div>
+                </div>
+            </div>
+            <div class="inner1_1"></div>
+        </div>
+    </div>
+</body>
+</html>
